@@ -1,0 +1,198 @@
+
+
+body {
+  text-align: center;
+  background-color: #283149;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: 1fr;
+  place-content:top;
+  height: 100vh;
+  margin:0px;
+}
+p:hover{
+  cursor: pointer;
+  font-size: 6rem;
+  
+  color:rgb(136, 210, 242)
+}
+p {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  /*width: fit-content;*/
+  
+  
+  margin:0px;
+  display: inline-block;
+}
+.selected{
+  font-size: 6rem;
+  
+  color:rgb(136, 210, 242)
+}
+h2{
+  position: relative;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top:8rem;
+}
+
+.w {
+  background-image: url("./images/tom1.png");
+}
+
+.a {
+  
+  background-image: url("./images/tom2.png");
+}
+
+.s {
+  background-image: url("./images/tom3.png");
+}
+
+.d {
+  background-image: url("./images/tom4.png");
+}
+
+.j {
+  background-image: url("./images/snare.png");
+}
+
+.k {
+  background-image: url("./images/crash.png");
+}
+
+.l {
+  background-image: url("./images/kick.png");
+}
+
+.set {
+  margin: 0px auto;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  height:16rem;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: black;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  margin: 0.6rem;
+  
+  background-color: white;
+  }
+
+  .pianoContainer{
+    display:grid;
+    background-color: #DA0463;
+    border:solid black 0.5rem;
+    box-shadow: black 0px 0px 50px;
+    grid-template-columns: repeat(42, 1rem);
+    place-content: center;
+    width:fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    
+  }
+  .whiteKey{
+    height:16rem;
+    background-color: white;
+    border:solid black 2px;
+    border-top:50px;
+    position: relative;
+    grid-row-start: 1;
+    box-shadow: inset 0px -1.5rem 0.3rem rgb(75, 74, 77);
+  }
+  .blackKey{
+    height:9rem;
+    z-index: 1;
+    background-color:  black;
+    grid-row-start: 1;
+    position:relative;
+    box-shadow: inset 0px -1.5rem 0.3rem rgb(33, 32, 45);
+  }
+  .key:hover{
+    background-color: grey;
+  }
+
+  #c{
+    grid-column: 1 / span 6;
+  }
+  #cSharp{
+    grid-column: 5 / span 4;
+    
+  }
+  #d{
+    grid-column: 7 / span 6;
+  }
+  #eFlat{
+    grid-column: 11  / span 4;
+  }
+  #e{
+    grid-column: 13 / span 6;
+  }
+  #f{
+    grid-column: 19 / span 6;
+  }
+  #fSharp{
+    grid-column: 23 / span 4;
+  }
+  #g{
+    grid-column: 25 / span 6;
+  }
+  #gSharp{
+    grid-column: 29 / span 4;
+  }
+  #a{
+    grid-column: 31 / span 6;
+  }
+  #bFlat{
+    grid-column: 35 / span 4;
+  }
+  #b{
+    grid-column: 37 / span 6;
+  }
+  .visibility{
+    display:none;    
+  }
+  .visibility2{
+    visibility: hidden;
+  }
+  span{
+    text-shadow: none;
+  }
+  footer{
+   /* margin: 0px auto;*/
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  }
