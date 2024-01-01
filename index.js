@@ -85,51 +85,51 @@ function pianoClick(){
 
     switch (this.id) {
         case "c":
-            var c = new Audio("./sounds/c3.mp3");
+            var c = new Audio("./sounds/C3.mp3");
             c.play();
             break;
         case "cSharp":
-            var cSharp = new Audio("./sounds/db3.mp3");
+            var cSharp = new Audio("./sounds/Db3.mp3");
             cSharp.play();
             break;
         case "d":
-            var d = new Audio("./sounds/d3.mp3");
+            var d = new Audio("./sounds/D3.mp3");
             d.play();
             break;
         case "eFlat":
-            var eFlat = new Audio("./sounds/eb3.mp3");
+            var eFlat = new Audio("./sounds/Eb3.mp3");
             eFlat.play();
             break;
         case "e":
-            var e = new Audio("./sounds/e3.mp3");
+            var e = new Audio("./sounds/E3.mp3");
             e.play();
             break;
         case "f":
-            var f = new Audio("./sounds/f3.mp3");
+            var f = new Audio("./sounds/F3.mp3");
             f.play();
             break;
         case "fSharp":
-            var fSharp = new Audio("./sounds/gb3.mp3");
+            var fSharp = new Audio("./sounds/Gb3.mp3");
             fSharp.play();
             break;
         case "g":
-            var g = new Audio("./sounds/g3.mp3");
+            var g = new Audio("./sounds/G3.mp3");
             g.play();
             break;
         case "gSharp":
-            var gSharp = new Audio("./sounds/ab3.mp3");
+            var gSharp = new Audio("./sounds/Ab3.mp3");
             gSharp.play();
             break;
         case "a":
-            var a = new Audio("./sounds/a3.mp3");
+            var a = new Audio("./sounds/A3.mp3");
             a.play();
             break;
         case "bFlat":
-            var bFlat = new Audio("./sounds/bb3.mp3");
+            var bFlat = new Audio("./sounds/Bb3.mp3");
             bFlat.play();
             break;
         case "b":
-            var b = new Audio("./sounds/b3.mp3");
+            var b = new Audio("./sounds/B3.mp3");
             b.play();
             break;
         
